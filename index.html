@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CNG Calculator | Prasanth M</title>
+    <link rel="stylesheet" crossorigin href="/assets/index-Cp8aCYR6.css">
+  </head>
+  <body class="bg-gradient-to-r from-purple-500  to-red-500 min-h-screen font-roboto">
+    <div class=" bg-zinc-800 sm:bg-white max-w-lg  p-10 mx-auto rounded mt-10 shadow-xl">
+      <div>
+        <h1 class="font-bold text-red-500 ">CNG Cost Calculator</h1>
+      </div>
+      <form class="mt-5 space-y-4">
+        <div>
+          <label for="trip-distance" class="form-label ">Trip Distance<span class="text-red-500"> *</span></label>
+          <input type="number" placeholder="Trip Distance" class="form-input" required>
+        </div>
+        <div>
+          <label for="fuel-efficiency" class="form-label ">Fuel Efficiency<span class="text-red-500"> *</span></label>
+          <input type="number"  id="fuel-efficiency" placeholder="Fuel Efficiency"  class="form-input" value="24" required>
+        </div>
+        <div>
+        <label for="fuel-cost" class="form-label ">Fuel Cost <span class="text-red-500"> *</span></label>
+        <input type="number" placeholder="Fuel Cost" id="fuel-cost" class="form-input" value="101" required>
+       </div>
+      <div>
+        <button class="bg-red-500 text-white px-4 py-2 rounded w-full">Calculate</button>
+      </div>
+
+      </form>
+    </div>
+  </body>
+</html>
