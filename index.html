@@ -26,10 +26,10 @@
       <form class="mt-5 space-y-4">
         <div>
           <label for="trip-distance" class="form-label font-medium text-sm text-white sm:text-black">Trip Distance<span class="text-red-500"> *</span></label>
-          <input type="number" placeholder="Trip Distance" class="form-input  bg-gray-100 px-4 py-2 rounded mt-2 outline-none w-full " required>
+          <input id="trip-distance" type="number" placeholder="Trip Distance" class="form-input  bg-gray-100 px-4 py-2 rounded mt-2 outline-none w-full " required>
         </div>
         <div>
-          <label for="fuel-efficiency" class="form-label font-medium text-sm text-white sm:text-black">Fuel Efficiency<span class="text-red-500"> *</span></label>
+          <label for="fuel-efficiency" class="form-label font-medium text-sm text-white sm:text-black">Your Vehicle's Fuel Efficiency<span class="text-red-500"> *</span></label>
           <input type="number"  id="fuel-efficiency" placeholder="Fuel Efficiency"  class="form-input  bg-gray-100 px-4 py-2 rounded mt-2 outline-none w-full " value="24" required>
         </div>
         <div>
@@ -37,7 +37,7 @@
         <input type="number" placeholder="Fuel Cost" id="fuel-cost" class="form-input  bg-gray-100 px-4 py-2 rounded mt-2 outline-none w-full " value="101" required>
        </div>
       <div>
-        <button class="bg-red-500 text-white px-4 py-2 rounded w-full">Calculate</button>
+        <button id="calculateBtn" class="bg-red-500 text-white px-4 py-2 rounded w-full">Calculate</button>
       </div>
       </form>
     </div>
